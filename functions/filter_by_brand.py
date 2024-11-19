@@ -34,7 +34,7 @@ def filter_by_brand(keyword):
                                                         'Marca': row[8],
                                                         'Valor': f'R$ {row[5]}',
                                                         'Link': row[10]}})
-                return data
+            return data
 
         else:
             return None
@@ -46,4 +46,3 @@ def filter_by_brand(keyword):
         cursor.close()
         connection.close()
     
-    return data

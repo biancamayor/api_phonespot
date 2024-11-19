@@ -1,7 +1,6 @@
 import json
 import os
 import sys
-sys.path.append(os.path.abspath("api_web_scraping\functions\get_db_connection.py"))
 import logging 
 import uuid
 import psycopg2
@@ -10,7 +9,6 @@ from pydantic import BaseModel
 from json_helpers.json_functions import add_connection_on_json_file
 from dotenv import load_dotenv
 
-#TODO: Inserir tempo para expirar o token uuid
 
 router = APIRouter()
 
