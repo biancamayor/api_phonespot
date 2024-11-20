@@ -1,6 +1,5 @@
 .env
 db_credentials/
 __pycache__/
-*.pyc
 .vscode/
 venv/
