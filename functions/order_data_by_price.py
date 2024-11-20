@@ -1,6 +1,5 @@
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '')))
 from functions.read_database_data import read_db_data
 from json_helpers.json_functions import get_connection
 from fastapi import HTTPException, APIRouter

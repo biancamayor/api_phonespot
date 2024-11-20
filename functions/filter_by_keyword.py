@@ -12,7 +12,7 @@ def filter_by_keyword(keyword):
 
     query = """select * 
             from comparativo 
-            where lower("m_nome") like %s 
+            where lower("m_nome") like %s
             or 
             lower("a_nome") like %s
             """
@@ -36,7 +36,7 @@ def filter_by_keyword(keyword):
                                                         'Marca': row[8],
                                                         'Valor': f'R$ {row[5]}',
                                                         'Link': row[10]}})
-                return data
+            return data
 
         else:
             return None
@@ -48,4 +48,3 @@ def filter_by_keyword(keyword):
         cursor.close()
         connection.close()
     
-    return data

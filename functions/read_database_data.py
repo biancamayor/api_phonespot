@@ -1,8 +1,5 @@
 from fastapi import Body, HTTPException, APIRouter
 from json_helpers.json_functions import get_connection
-from dotenv import load_dotenv
-import os
-import psycopg2
 
 router = APIRouter()
 
@@ -21,6 +18,7 @@ def read_db_data():
         if cursor.description != None:
             results = cursor.fetchall()
             data = []
+            indexs = [x for x in range(0,11)]
             for row in results:
                 data.append({'Id': row[0], 'Mercado Livre': {'Código': row[1],
                                                         'Nome': row[2],
