@@ -96,6 +96,7 @@ A **PhoneSpot API** é uma aplicação que:
       API: http://127.0.0.1:8000/docs
       ```
 
+---
 
 ## 💻 **Data App**
 
@@ -112,9 +113,12 @@ Será exibido no endereço configurado pelo Streamlit.
    - Implementação em container para fácil escalabilidade.
 
 
+---
+
 ## 🔒 **Notas de Segurança**
 As credenciais de acesso e variáveis de ambiente não são expostas no repositório. É necessário fornecer seus próprios arquivos para rodar o container.
 
+---
 
 ## 🖥️ **Demonstração**
 Uma demonstração do Data App e da API está disponível aqui:
@@ -122,11 +126,13 @@ Uma demonstração do Data App e da API está disponível aqui:
 - <a href="https://youtu.be/Ihn9PKbm6Ao" target="_blank">Container_Docker</a>
 
 
+---
+
 ## 📞 **Contato**
 Para mais informações ou dúvidas, entre em contato:
 
-- <a href="linkedin.com/in/bianca-mayor" target="_blank">LinkedIn</a>
-- <a href="biancamayor@hotmail.com" target="_blank">E-mail</a>
+- <a href="https://linkedin.com/in/bianca-mayor" target="_blank">LinkedIn</a>
+- **E-mail**: biancamayor@hotmail.com
 
 
 
