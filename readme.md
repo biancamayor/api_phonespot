@@ -40,7 +40,9 @@ A **PhoneSpot API** é uma aplicação que:
    cd api_phonespot
 
 2. **Configuração do ambiente**:
+   
    Crie um arquivo .env com as variáveis de ambiente necessárias:
+
    - **CONNECTIONS_PATH** - Onde será armazenado o caminho para o arquivo json responsável por salvar o token de conexão com o banco de dados. Será nesse caminho que os endpoints terão acesso ao token gerado na conexão do endpoint get_db_connection.
    
    - **SECRET_KEY** - Chave única e secreta para gerar uma chave de criptografia resultante da combinação da SECRET_KEY e do IP de acesso do cliente. Utilizei para restringir quem pode utilizar a API, visto que a única forma de ela permitir acesso é com a combinação do meu ip permitido e a minha SECRET_KEY.
@@ -68,23 +70,25 @@ A **PhoneSpot API** é uma aplicação que:
    }
 
 
+3. **Build e execução com Docker**:
+   - **Gere a imagem Docker:**
+      ```bash
+      docker build -t phonespot_api .
+
+   - **Execute o container:**
+      ```bash
+      docker run -d -p 8000:8000 --env-file .env `
+      -v ${PWD}/db_credentials:/app/db_credentials `
+      -v ${PWD}/db_connections:/app/db_connections `
+      phonespot_api
+
+   - **Acesse a aplicação:**
+      ```bash
+      API: http://127.0.0.1:8000/docs
 
 
 
-Insira os arquivos de credenciais no local indicado.
-Build e execução com Docker:
 
-Gere a imagem Docker:
-bash
-Copiar código
-docker build -t phoneprice-api .  
-Execute o container:
-bash
-Copiar código
-docker run -d -p 8000:8000 --env-file .env -v /caminho/para/credenciais:/app/credenciais phoneprice-api  
-Acesse a aplicação:
-
-API: http://localhost:8000/docs
 Data App: Será exibido no endereço configurado pelo Streamlit.
 🌟 Funcionalidades Principais
 Endpoints flexíveis para busca e filtragem de celulares.
