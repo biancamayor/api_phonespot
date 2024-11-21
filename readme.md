@@ -107,8 +107,8 @@ As credenciais de acesso e variáveis de ambiente não são expostas no reposit�
 
 ## 🖥️ **Demonstração**
 Uma demonstração do Data App e da API está disponível aqui:
-[PhoneSpot](https://youtu.be/viddFk2H0rU)
-[Container_Docker](https://youtu.be/Ihn9PKbm6Ao)
+- [PhoneSpot](https://youtu.be/viddFk2H0rU)
+- [Container_Docker](https://youtu.be/Ihn9PKbm6Ao)
 
 
 ## 📞 **Contato**
