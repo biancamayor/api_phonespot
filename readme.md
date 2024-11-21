@@ -51,23 +51,27 @@ A **PhoneSpot API** é uma aplicação que:
 
    Crie um arquivo db_credentials/credentials.json contendo suas credenciais de acesso ao banco de dados no seguinte formato:
 
-   {
-    "host": "host",
-    "database": "database",
-    "user": "user",
-    "password": "password"
-   }
+      ```bash
+      {
+      "host": "host",
+      "database": "database",
+      "user": "user",
+      "password": "password"
+      }
+      ```
 
    Crie um arquivo db_connections/connections.json para armazenar a conexão com o banco de dados gerada pelo endpoint get_db_connections. Nesse arquivo teremos o token gerado pela conexão e suas credenciais do banco. Dessa forma, todos os endpoints acessarão esse arquivo para utilizar a conexão criada.
 
-   {
-    "token_de_conexão_do_banco_de_dados": {
-        "host": "host",
-        "database": "database",
-        "user": "user",
-        "password": "password"
+      ```bash
+      {
+      "token_de_conexão_do_banco_de_dados": {
+         "host": "host",
+         "database": "database",
+         "user": "user",
+         "password": "password"
+         }
       }
-   }
+      ```
 
 
 3. **Build e execução com Docker**:
@@ -81,10 +85,12 @@ A **PhoneSpot API** é uma aplicação que:
       -v ${PWD}/db_credentials:/app/db_credentials `
       -v ${PWD}/db_connections:/app/db_connections `
       phonespot_api
+      ```
 
    - **Acesse a aplicação:**
       ```bash
       API: http://127.0.0.1:8000/docs
+      ```
 
 
 ## 💻 **Data App**
@@ -94,6 +100,7 @@ Será exibido no endereço configurado pelo Streamlit.
 - **Como executar**
    ```bash
    streamlit run streamlit/main.py
+   ```
 
 - **🌟 Funcionalidades Principais**
    - Endpoints flexíveis para busca e filtragem de celulares.
@@ -114,8 +121,8 @@ Uma demonstração do Data App e da API está disponível aqui:
 ## 📞 **Contato**
 Para mais informações ou dúvidas, entre em contato:
 
-- **LinkedIn**: linkedin.com/in/bianca-mayor
-- **E-mail**: biancamayor@hotmail.com
+- [LinkedIn](linkedin.com/in/bianca-mayor)
+- [E-mail](biancamayor@hotmail.com)
 
 
 
