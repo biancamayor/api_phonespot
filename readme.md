@@ -7,7 +7,10 @@ Bem-vindo ao repositório do **PhoneSpot API**, um projeto completo que combina 
 ## 🚀 **Descrição do Projeto**
 
 A **PhoneSpot API** é uma aplicação que:
-1. **Coleta dados de celulares**: Preços, nomes, marcas, códigos Anatel e links dos produtos são extraídos de grandes marketplaces como **Mercado Livre** e **Americanas** usando um projeto de **web scraping**.
+1. **Coleta dados de celulares**: Preços, nomes, marcas, códigos Anatel e links dos produtos são extraídos de grandes marketplaces como **Mercado Livre** e **Americanas** usando um projeto de **web scraping** que está disponível aqui no meu GitHub: 
+
+- <a href="https://github.com/biancamayor/web_scraping_phonespot.git" target="_blank">WebScraping</a>
+
 2. **Armazena e trata dados**: Esses dados são salvos em um banco de dados relacional após tratamento, prontos para serem consumidos.
 3. **Oferece uma API poderosa**: Diversos endpoints permitem consultar e filtrar celulares, como:
    - 🔍 **Busca por palavra-chave**.
@@ -64,7 +67,8 @@ A **PhoneSpot API** é uma aplicação que:
 
       ```bash
       {
-      "token_de_conexão_do_banco_de_dados": {
+      "token_de_conexão_do_banco_de_dados": 
+         {
          "host": "host",
          "database": "database",
          "user": "user",
@@ -114,15 +118,16 @@ As credenciais de acesso e variáveis de ambiente não são expostas no reposit�
 
 ## 🖥️ **Demonstração**
 Uma demonstração do Data App e da API está disponível aqui:
-- [PhoneSpot](https://youtu.be/viddFk2H0rU)
-- [Container_Docker](https://youtu.be/Ihn9PKbm6Ao)
+- <a href="https://youtu.be/viddFk2H0rU" target="_blank">PhoneSpot</a>
+- <a href="https://youtu.be/Ihn9PKbm6Ao" target="_blank">Container_Docker</a>
 
 
 ## 📞 **Contato**
 Para mais informações ou dúvidas, entre em contato:
 
-- [LinkedIn](linkedin.com/in/bianca-mayor)
-- [E-mail](biancamayor@hotmail.com)
+- <a href="linkedin.com/in/bianca-mayor" target="_blank">LinkedIn</a>
+- <a href="biancamayor@hotmail.com" target="_blank">E-mail</a>
+
 
 
 
