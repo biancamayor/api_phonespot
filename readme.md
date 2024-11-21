@@ -87,28 +87,30 @@ A **PhoneSpot API** é uma aplicação que:
       API: http://127.0.0.1:8000/docs
 
 
+## 💻 **Data App**
 
+Será exibido no endereço configurado pelo Streamlit.
 
-Data App: Será exibido no endereço configurado pelo Streamlit.
-🌟 Funcionalidades Principais
-Endpoints flexíveis para busca e filtragem de celulares.
-Interface visual interativa para explorar a API.
-Implementação em container para fácil escalabilidade.
-🔒 Notas de Segurança
+- **Como executar**
+   ```bash
+   streamlit run streamlit/main.py
+
+- **🌟 Funcionalidades Principais**
+   - Endpoints flexíveis para busca e filtragem de celulares.
+   - Interface visual interativa para explorar a API.
+   - Implementação em container para fácil escalabilidade.
+
+## 🔒 **Notas de Segurança**
 As credenciais de acesso e variáveis de ambiente não são expostas no repositório. É necessário fornecer seus próprios arquivos para rodar o container.
-🖥️ Demonstração
+
+## 🖥️ **Demonstração**
 Uma demonstração do Data App e da API está disponível aqui (adicione link para demonstração, caso exista).
 
-🤝 Contribuições
-Contribuições, sugestões e melhorias são bem-vindas! Sinta-se à vontade para abrir issues ou enviar PRs.
-
-📞 Contato
+## 📞 **Contato**
 Para mais informações ou dúvidas, entre em contato:
 
-LinkedIn (adicione o link para o seu perfil).
-E-mail.
-📝 Licença
-Este projeto é licenciado sob a MIT License.
+**LinkedIn** linkedin.com/in/bianca-mayor
+**E-mail** biancamayor@hotmail.com
 
 
 
