@@ -1,7 +1,9 @@
-FROM python:3.11
+FROM python:3.9-slim
 
-COPY requirements.txt .
+WORKDIR /app
+COPY requirements.txt /app/
 RUN pip install -r requirements.txt
-COPY . .
 
-CMD ["uvicorn", "main:api"]
+COPY . /app/
+
+CMD ["uvicorn", "main:api", "--host", "0.0.0.0", "--port", "8000"]
