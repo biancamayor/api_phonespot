@@ -20,13 +20,6 @@ async def is_ip_allowed(request: Request, call_next):
     client_signature = generate_signature(client_ip)
     expected_signature = generate_signature(allowed_ip)
 
-    import logging
-    logging.warning(f'allowed_ip:{allowed_ip}')
-    logging.warning(f'client_ip:{client_ip}')
-    logging.warning(f'client_signature:{client_signature}')
-    logging.warning(f'expected_signature:{expected_signature}')
-
-
     if not hmac.compare_digest(client_signature, expected_signature):
         raise HTTPException(status_code=403, detail="Acesso negado: IP não autorizado")
     

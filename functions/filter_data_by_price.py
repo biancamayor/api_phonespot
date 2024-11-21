@@ -27,7 +27,7 @@ def filter_data_by_price(min_value:float, max_value:float):
 
             logging.warning(f"Valores Mercado Livre: {mercado_livre_price}, Americanas: {americanas_price}")  
 
-            if (min_value <= mercado_livre_price <= max_value) or (min_value <= americanas_price <= max_value):
+            if (min_value <= mercado_livre_price <= max_value) and (min_value <= americanas_price <= max_value):
                 filtered_results.append(row)
 
         logging.warning("Resultados filtrados:", filtered_results)  
