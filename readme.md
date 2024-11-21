@@ -100,17 +100,22 @@ Será exibido no endereço configurado pelo Streamlit.
    - Interface visual interativa para explorar a API.
    - Implementação em container para fácil escalabilidade.
 
+
 ## 🔒 **Notas de Segurança**
 As credenciais de acesso e variáveis de ambiente não são expostas no repositório. É necessário fornecer seus próprios arquivos para rodar o container.
 
+
 ## 🖥️ **Demonstração**
-Uma demonstração do Data App e da API está disponível aqui (adicione link para demonstração, caso exista).
+Uma demonstração do Data App e da API está disponível aqui:
+[PhoneSpot](https://youtu.be/viddFk2H0rU)
+[Container_Docker](https://youtu.be/Ihn9PKbm6Ao)
+
 
 ## 📞 **Contato**
 Para mais informações ou dúvidas, entre em contato:
 
-**LinkedIn** linkedin.com/in/bianca-mayor
-**E-mail** biancamayor@hotmail.com
+- **LinkedIn**: linkedin.com/in/bianca-mayor
+- **E-mail**: biancamayor@hotmail.com
 
 
 
